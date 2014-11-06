@@ -1,84 +1,104 @@
 <!DOCTYPE html>
 <html lang="en" class="demo-drawings no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Drawing Test</title>
-		<meta name="description" content="SVG Drawing Animation: Line drawing animation with illustration fade-in" />
-		<meta name="keywords" content="svg, line drawing, animation, illustration, fade in, web design, responsive" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<!--[if IE]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<div class="container">
-			<div id="main" class="main">
-				<figure>
-					<div class="drawings">
-						<svg class="line-drawing" id="strategy" vpreserveAspectRatio="xMinYMin meet" viewBox="0 0 300 233">
-<path class="st0" d="M138,16.2v150.4"/>
-<path class="st0" d="M138,166.6h20.8v38.7"/>
-<path class="st0" d="M96.3,185.9v-19.3H138"/>
-<path class="st0" d="M242.1,128h40"/>
-<path class="st0" d="M138,50.9h62.4v57.9"/>
-<path class="st0" d="M200.1,89.5h-20.5v57.9"/>
-<path class="st0" d="M56.2,166.6V128h19.7V50.9h62"/>
-<path class="st0" d="M200.4,89.5h41.7v77.1"/>
-<path class="st0" d="M76.1,89.5H16.2"/>
-						</svg>
-					</div>
-				</figure>
-
-				<figure>
-					<div class="drawings">
-						<svg class="line-drawing" id="planning" preserveAspectRatio="xMinYMin meet" viewBox="0 0 300 300">
-<path class="st0" d="M31.8,211.5C22.1,193,16.6,172,16.6,149.7C16.6,76,76.3,16.3,150,16.3c73.7,0,133.4,59.7,133.4,133.4
-	S223.7,283,150,283C98.7,283,54.1,254,31.8,211.5"/>
-<path class="st0" d="M35,209.8L150,19.3l114.3,190.5L35,209.8"/>
-<path class="st0" d="M150,207.4l-54.5-90.8h109.1L150,207.4"/>
-						</svg>
-					</div>
-				</figure>
-
-				<figure>
-					<div class="drawings">
-						<svg class="line-drawing" id="strategy" preserveAspectRatio="xMinYMin meet" viewBox="0 0 300 300">
-<path class="st0" d="M18.2,41H282v217.9H18.2V44.6"/>
-<path class="st0" d="M118.1,42.2v22.8H69.4v28.6H18.5"/>
-<path class="st0" d="M69.4,64.9H18.5"/>
-<path class="st0" d="M118.1,64.9h60.6v28.7h41.1V240h-38.2v18.8"/>
-<path class="st0" d="M178.7,64.9h102.9"/>
-<path class="st0" d="M219.9,93.7H282"/>
-<path class="st0" d="M178.7,93.7V149h-60.6"/>
-<path class="st0" d="M178.7,149h41.1"/>
-<path class="st0" d="M69.4,93.5h48.7v81.9h63.6V240 M118.1,140.9H52.7v71h65.4V259"/>
-<path class="st0" d="M52.7,140.9H18.2"/>
-<path class="st0" d="M219.9,138.9h22.8v64.3H282"/>
-<path class="st0" d="M242.7,138.9H282"/>
-<path class="st0" d="M242.7,203.2h-22.8"/>
-<path class="st0" d="M52.7,159.3h65.4"/>
-<path class="st0" d="M181.7,175.4h38.2"/>
-<path class="st0" d="M118.1,175.4V212h63.6"/>
-<path class="st0" d="M52.7,212H18.2"/>
-<path class="st0" d="M219.9,240H282"/>
-<path class="st0" d="M118.1,242.5H18.5"/>
-<path class="st0" d="M18.5,35.5c3,0,5.5,2.4,5.5,5.5s-2.4,5.5-5.5,5.5S13,44,13,41S15.5,35.5,18.5,35.5z M281.8,35.5
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Drawing Test
+        </title>
+        <meta name="description" content="SVG Drawing Animation: Line drawing animation with illustration fade-in"
+        />
+        <meta name="keywords" content="svg, line drawing, animation, illustration, fade in, web design, responsive"
+        />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+                        
+            </script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <div class="container">
+            <div id="main" class="main">
+                <figure>
+                    <p>
+                        User Experience
+                    </p>
+                    <div class="drawings">
+                        <svg class="line-drawing" id="strategy" vpreserveAspectRatio="xMinYMin meet"
+                        viewBox="0 0 300 233">
+                            <path class="st0" d="M138,16.2v150.4" />
+                            <path class="st0" d="M138,166.6h20.8v38.7" />
+                            <path class="st0" d="M96.3,185.9v-19.3H138" />
+                            <path class="st0" d="M242.1,128h40" />
+                            <path class="st0" d="M138,50.9h62.4v57.9" />
+                            <path class="st0" d="M200.1,89.5h-20.5v57.9" />
+                            <path class="st0" d="M56.2,166.6V128h19.7V50.9h62" />
+                            <path class="st0" d="M200.4,89.5h41.7v77.1" />
+                            <path class="st0" d="M76.1,89.5H16.2" />
+                        </svg>
+                    </div>
+                </figure>
+                <figure>
+                    <p>
+                        Planning
+                    </p>
+                    <div class="drawings">
+                        <svg class="line-drawing" id="planning" preserveAspectRatio="xMinYMin meet"
+                        viewBox="0 0 300 300">
+                            <path class="st0" d="M31.8,211.5C22.1,193,16.6,172,16.6,149.7C16.6,76,76.3,16.3,150,16.3c73.7,0,133.4,59.7,133.4,133.4
+	S223.7,283,150,283C98.7,283,54.1,254,31.8,211.5" />
+                            <path class="st0" d="M35,209.8L150,19.3l114.3,190.5L35,209.8" />
+                            <path class="st0" d="M150,207.4l-54.5-90.8h109.1L150,207.4" />
+                        </svg>
+                    </div>
+                </figure>
+                <figure>
+                    <p>
+                        Development
+                    </p>
+                    <div class="drawings">
+                        <svg class="line-drawing" id="development" preserveAspectRatio="xMinYMin meet"
+                        viewBox="0 0 300 300">
+                            <path class="st0" d="M18.2,41H282v217.9H18.2V44.6" />
+                            <path class="st0" d="M118.1,42.2v22.8H69.4v28.6H18.5" />
+                            <path class="st0" d="M69.4,64.9H18.5" />
+                            <path class="st0" d="M118.1,64.9h60.6v28.7h41.1V240h-38.2v18.8" />
+                            <path class="st0" d="M178.7,64.9h102.9" />
+                            <path class="st0" d="M219.9,93.7H282" />
+                            <path class="st0" d="M178.7,93.7V149h-60.6" />
+                            <path class="st0" d="M178.7,149h41.1" />
+                            <path class="st0" d="M69.4,93.5h48.7v81.9h63.6V240 M118.1,140.9H52.7v71h65.4V259"
+                            />
+                            <path class="st0" d="M52.7,140.9H18.2" />
+                            <path class="st0" d="M219.9,138.9h22.8v64.3H282" />
+                            <path class="st0" d="M242.7,138.9H282" />
+                            <path class="st0" d="M242.7,203.2h-22.8" />
+                            <path class="st0" d="M52.7,159.3h65.4" />
+                            <path class="st0" d="M181.7,175.4h38.2" />
+                            <path class="st0" d="M118.1,175.4V212h63.6" />
+                            <path class="st0" d="M52.7,212H18.2" />
+                            <path class="st0" d="M219.9,240H282" />
+                            <path class="st0" d="M118.1,242.5H18.5" />
+                            <path class="st0" d="M18.5,35.5c3,0,5.5,2.4,5.5,5.5s-2.4,5.5-5.5,5.5S13,44,13,41S15.5,35.5,18.5,35.5z M281.8,35.5
 	c3,0,5.5,2.4,5.5,5.5s-2.4,5.5-5.5,5.5c-3,0-5.5-2.4-5.5-5.5S278.8,35.5,281.8,35.5z M281.8,253.6c3,0,5.5,2.4,5.5,5.5
 	s-2.4,5.5-5.5,5.5c-3,0-5.5-2.4-5.5-5.5S278.8,253.6,281.8,253.6z M18.2,253.6c3,0,5.5,2.4,5.5,5.5s-2.4,5.5-5.5,5.5
-	s-5.5-2.4-5.5-5.5S15.1,253.6,18.2,253.6z"/>
-						</svg>
-					</div>
-				</figure>
+	s-5.5-2.4-5.5-5.5S15.1,253.6,18.2,253.6z" />
+                        </svg>
+                    </div>
+                </figure>
+            </div>
+        </div>
+        <!-- /container -->
+        <script src="js/svganimations.js">
+                
+        </script>
+    </body>
 
-
-
-			</div>
-		</div><!-- /container -->
-		<script src="js/svganimations.js"></script>
-	</body>
 </html>
