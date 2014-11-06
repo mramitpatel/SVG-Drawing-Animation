@@ -2,6 +2,11 @@ svg {
 	pointer-events: none;
 }
 
+.container{
+		margin: 0 auto;
+		width: 300px;
+}
+
 /* Demo 1 */
 
 .demo-drawings figcaption {
@@ -25,20 +30,9 @@ svg {
 	font-size: 1.3em;
 }
 
-.drawings {
-	position: relative;
-	max-height: 600px;
-}
 
 .illustration {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	max-height: 100%;
-	max-width: 100%;
-	opacity: 0;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
+
 }
 
 .show {
@@ -49,26 +43,32 @@ svg {
 	opacity: 0;
 }
 
+
+.drawings{
+	display: inline-block;
+position: relative;
+width: 100%;
+padding-bottom: 100%;
+vertical-align: middle;
+overflow: hidden;
+}
+
 .line-drawing,
 .illustration {
+
+display: inline-block;
+position: absolute;
+top: 0;
+left: 0;
+
 	-webkit-transition: opacity 0.5s;
 	transition: opacity 0.5s;
+	stroke-linecap: round;
 }
 
 .line-drawing path {
 	fill: none;
 	stroke: white;
-	stroke-width: 3;
+	stroke-width: 4;
 }
 
-path.line-round {
-	stroke-linecap: round;
-}
-
-path.stroke-medium {
-	stroke-width: 2;
-}
-
-path.stroke-thin {
-	stroke-width: 1;
-}
