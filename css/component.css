@@ -2,15 +2,18 @@ svg {
 	pointer-events: none;
 }
 
+body{
+	background-color: #0e3b63;
+}
 .container{
 		margin: 0 auto;
-		width: 300px;
+		width: 50%;
 		text-align: center;
 }
 
 
 .drawings{
-	display: inline-block;
+display: inline-block;
 position: relative;
 width: 100%;
 padding-bottom: 100%;
@@ -18,22 +21,12 @@ vertical-align: middle;
 overflow: hidden;
 }
 
-.line-drawing,
-.illustration {
 
-display: inline-block;
-position: absolute;
-top: 0;
-left: 0;
-
-	-webkit-transition: opacity 0.5s;
+.drawings path {
+  fill: none;
+  stroke: #9e8e73;
+  stroke-width: 1;
+  	stroke-linecap: round;
+  		-webkit-transition: opacity 0.5s;
 	transition: opacity 0.5s;
-	stroke-linecap: round;
 }
-
-.line-drawing path {
-	fill: none;
-	stroke: white;
-	stroke-width: 4;
-}
-
